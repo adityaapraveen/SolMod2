@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Wallet Interaction</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@solana/web3.js@1.76.0/lib/index.iife.js"></script>
+    <script src="index.js" defer></script>
+    <script>
+        if (!window.solana) {
+            console.warn("Phantom Wallet not detected. Please install it.");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Solana Wallet Interaction</h1>
+        <button id="create-account">Create a New Solana Account</button>
+        <button id="connect-wallet">Connect to Phantom Wallet</button>
+        <button id="transfer-sol">Transfer SOL to New Wallet</button>
+        <p id="output"></p>
+    </div>
+</body>
+
+</html>
