@@ -17,8 +17,7 @@ This project demonstrates how to interact with the Solana blockchain using the `
 To get started, clone this repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/adityaapraveen/solana-wallet-interaction.git
-cd solana-wallet-interaction
+git clone https://github.com/adityaapraveen/SolMod2/edit/master.git
 npm install
 ```
 
